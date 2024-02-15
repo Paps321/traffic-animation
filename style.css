@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.box{
+    background-image: url(images/skye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+.overlay-image{
+    /* padding: 20px 0px; */
+    width: 100%;
+}
+.birds-circular{
+    transform: translate(90px,-1720px);
+    /* position: absolute;
+    top: 100px; */
+}
+html, body{
+    overflow-x: hidden;
+}
+.birds-linear{
+    transform: translate(730px,-1798px);
+    /* position: absolute;
+    top: 0px; */
+}
+.lane{
+    background-color: #fff;
+    /* height: 10px; */
+    /* border: 1px solid red; */
+    padding: 8px 0px;
+    transform: translate(0px,190px);
+
+}
+.first-lane{
+    background-color: #58F758;
+    /* border: 1px solid; */
+    padding: 10px 0px;
+    transform: translate(0px,190px);
+
+}
+.road{
+    transform: translate(0px,190px);
+    /* padding: 80px 0px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.road-one{
+    transform: translate(0px,180px);
+
+}
+.black{
+    background-color: #313030;
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+    border: 1px solid;
+    transform: translate(0px,181px);
+    width: 100%;
+    height: 70px;
+}
+ .aeroplane{
+    /* transform: translate(0px,-700px);   */
+    position: absolute;
+    top: 100px;
+    animation: aeroplane 2s linear infinite backwards;
+
+}
+@keyframes aeroplane {
+    0%{
+        transform: translateX(1400px);
+    }
+    100%{
+        transform: translateX(-210px);
+    }
+}
+
+.chopper{
+    /* transform: translate(0px,-790px); */
+    position: absolute;
+    top: 100px;
+    animation: chopper 4s linear infinite backwards;
+}
+@keyframes chopper {
+    0%{
+        transform: translate(1400px, 0px);
+    }
+    100%{
+        transform: translate(-210px, 0px);
+    }
+}
+
+.bike{
+    /* transform: translate(200px,-880px); */
+    position: absolute;
+    top: 240px;
+    animation: bike 4s linear infinite backwards;
+}
+@keyframes bike {
+    0%{
+        transform: translate(1400px, 0px);
+    }
+    100%{
+        transform: translate(-210px, 0px);
+    }
+}
+.man{
+    /* transform: translate(350px,-1790px); */
+    position: absolute;
+    top: 140px;
+    animation: man 10s linear infinite backwards;
+}
+@keyframes man {
+    0%{
+        transform: translate(1400px, 0px);
+    }
+    100%{
+        transform: translate(-210px, 0px);
+    }
+}
+.lady{
+    /* transform: translate(660px,-1675px); */
+    position: absolute;
+    top: 140px;
+    animation: lady 15s linear infinite forwards;
+}
+@keyframes lady {
+    0%{
+        transform: translate(-210px, 0px);
+    }
+    100%{
+        transform: translate(1400px, 0px);
+    }
+}
+
+.truck{
+    /* transform: translate(0px,-990px); */
+    position: absolute;
+    top: 340px;
+    animation: truck 10s linear infinite forwards;
+}
+@keyframes truck {
+    0%{
+        transform: translate(1400px, 0px);
+    }
+    100%{
+        transform: translate(-210px, 0px);
+    }
+}
+.taxi{
+    /* transform: translate(0px,-1270px); */
+    position: absolute;
+    top: 250px;
+    animation: taxi 5s linear infinite backwards;
+}
+@keyframes taxi {
+    0%{
+        transform: translate(1400px, 0px);
+    }
+    100%{
+        transform: translate(-210px, 0px);
+    }
+}
+.taxi-one{
+    /* transform: translate(0px,-1100px); */
+    position: absolute;
+    top: 550px;
+    animation: taxi-one 2s linear infinite forwards;
+}
+@keyframes taxi-one {
+    0%{
+        transform: translate(-210px, 0px);
+    }
+    100%{
+        transform: translate(1400px, 0px);
+    }
+}
+.light1{
+    transform: translate(300px,-785px);
+
+}
+.light2{
+    transform: translate(700px,-890px);
+
+}
+.light3{
+    transform: translate(1100px,-995px);
+
+}
+
+.light-one{
+    transform: translate(160px,-885px);
+
+}
+.light-ones{
+    transform: translate(900px,-990px);
+
+}
+.bicycle{
+    /* transform: translate(400px,-2440px); */
+    position: absolute;
+    top: 490px;
+    animation: bicycle 15s linear infinite forwards;
+}
+@keyframes bicycle {
+    0%{
+        transform: translate(-210px, 0px);
+    }
+    100%{
+        transform: translate(1400px, 0px);
+    }
+}
+
+.trucky{
+    /* transform: translate(500px,-2720px); */
+
+    position: absolute;
+    top: 490px;
+    animation: trucky 7s linear infinite forwards;
+}
+@keyframes trucky {
+    0%{
+        transform: translate(-210px, 0px);
+    }
+    100%{
+        transform: translate(1400px, 0px);
+    }
+}
+
+.sport{
+    transform: translate(990px,-2620px);
+    position: absolute;
+    top: 490px;
+    animation: sport 1s linear infinite forwards;
+}
+@keyframes sport {
+    0%{
+        transform: translate(-210px, 0px);
+    }
+    100%{
+        transform: translate(1400px, 0px);
+    }
+}
+
+section{
+    transform: translate(0px,-190px);
+
+}
+.ground{
+    transform: translate(0px,190px);
+
+}
+.one-way{
+    transform: translate(1180px,-405px);
+
+}
+.one-ways{
+    transform: translate(180px,-635px);
+
+}
